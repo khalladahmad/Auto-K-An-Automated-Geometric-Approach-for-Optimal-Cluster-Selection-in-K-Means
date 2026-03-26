@@ -9,7 +9,7 @@ Traditional K-Means clustering often requires manual interpretation of "Elbow" p
 * **High Versatility:** Successfully validated on diverse datasets, including Heart Disease and Mall Customer segmentation.
 * **Seamless Integration:** Designed to plug directly into Python-based Scikit-Learn workflows.
 
-## 🛠️ How it Works
+##  How it Works
 Unlike the standard Elbow Method which simply plots WCSS, **Auto-K** treats the WCSS curve as a geometric path. It identifies the $k$ value where the rate of change (angle) is most significant, representing the point of diminishing returns for adding more clusters.
 
 
@@ -24,8 +24,4 @@ The algorithm was tested against the traditional "Elbow" and "Silhouette" method
 * **Libraries:** NumPy, Scikit-learn, Matplotlib, Pandas
 
 ---
-
-### Suggested Repository "About" Section:
->  Automated K-Means clustering using a geometric curvature approach to determine the optimal number of clusters ($k$) without manual "Elbow" plot inspection.
-
 
